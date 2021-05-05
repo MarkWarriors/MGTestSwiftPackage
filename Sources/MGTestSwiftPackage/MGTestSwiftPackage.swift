@@ -1,7 +1,7 @@
 import Foundation
 
-struct MGTestSwiftPackage {
-  static func whatTimeIsInItaly() -> String {
+public struct MGTestSwiftPackage {
+  public static func whatTimeIsInItaly() -> String {
     let dateFormatter = DateFormatter()
     dateFormatter.timeZone = TimeZone(identifier: "Europe/Rome")!
     dateFormatter.dateFormat = "HH:mm:ss"
